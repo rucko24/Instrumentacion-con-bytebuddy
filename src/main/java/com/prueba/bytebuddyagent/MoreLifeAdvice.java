@@ -1,12 +1,10 @@
 package com.prueba.bytebuddyagent;
 
-import lombok.extern.log4j.Log4j2;
 import net.bytebuddy.asm.Advice;
 
 /**
  * Advice
  */
-@Log4j2
 public class MoreLifeAdvice {
 
     @Advice.OnMethodExit

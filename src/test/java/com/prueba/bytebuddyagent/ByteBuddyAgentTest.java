@@ -1,5 +1,6 @@
 package com.prueba.bytebuddyagent;
 
+import lombok.extern.slf4j.Slf4j;
 import net.bytebuddy.ByteBuddy;
 import net.bytebuddy.agent.ByteBuddyAgent;
 import net.bytebuddy.dynamic.loading.ClassReloadingStrategy;
@@ -15,7 +16,8 @@ import static org.hamcrest.Matchers.is;
 /**
  * Unit test for simple App.
  */
-public class ByteBuddyAgentTest {
+@Slf4j
+class ByteBuddyAgentTest {
 
     @Test
     void test() throws IOException {
@@ -34,7 +36,7 @@ public class ByteBuddyAgentTest {
         assertThat(foo.getHello(), is("Hola"));
     }
 
-    class Foo {
+    static class Foo {
 
         public String getHello() {
             return "Hola";
