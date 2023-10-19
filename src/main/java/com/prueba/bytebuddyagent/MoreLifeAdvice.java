@@ -17,11 +17,10 @@ public class MoreLifeAdvice {
 
             throws Exception {
         life = 1000;
-        System.out.println("New life set to" + life);
+        System.out.println("New life set to: " + life);
         attack = 1000;
         speed = 100f;
         shootSpeed = 10f;
         shootDelay = 10;
-        name = "LaViejaRubena";
     }
 }
