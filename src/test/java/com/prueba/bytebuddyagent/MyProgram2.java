@@ -1,8 +1,5 @@
 package com.prueba.bytebuddyagent;
 
-import lombok.Data;
-
-@Data
 public class MyProgram2 {
 
     private static Usuario USUARIO = new Usuario();

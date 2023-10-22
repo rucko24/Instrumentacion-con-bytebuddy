@@ -1,8 +1,6 @@
 package com.prueba.bytebuddyagent;
 
-import lombok.Data;
 
-@Data
 public class Usuario {
 
     private int life= 10;
