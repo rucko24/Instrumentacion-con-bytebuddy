@@ -1,11 +1,8 @@
 package com.prueba.bytebuddyagent;
 
-import lombok.Data;
-
 import javax.swing.*;
 import java.awt.*;
 
-@Data
 class ReflectionOnClass extends JFrame {
 
 
