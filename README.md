@@ -1,6 +1,6 @@
 # Summary
 
-There are currently only 3 agents, where we apply both static and dynamic instrumentation, with bytebyddy.
+There are currently only 3 agents, where we apply both static and dynamic instrumentation, with `bytebuddy`.
 
 - [*patch game elhacker.net:*](https://github.com/rucko24/Instrumentacion-con-bytebuddy/tree/master/patch-elhackernet-user)
 - [*patch Log4Shell*](https://github.com/rucko24/Instrumentacion-con-bytebuddy/tree/master/patch-log4shell)
@@ -8,7 +8,7 @@ There are currently only 3 agents, where we apply both static and dynamic instru
 
 ## How to create agents
 
-At the moment use jdk8(example: `corretto-1.8.0_462`) to create the compilation, because the `tools.jar` is necessary, and for these examples we use it.
+At the moment use jdk8 (example: `corretto-1.8.0_462`) to create the compilation, because the `tools.jar` is necessary, and for these examples we use it.
 
 ```sh
 [INFO] Reactor Summary:
