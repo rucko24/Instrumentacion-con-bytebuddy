@@ -46,3 +46,8 @@ Campo: val$_$$r_easte
 ```
 <1> Premain executed.
 <2> Key found!
+
+---
+
+<img width="1129" height="711" alt="image" src="https://github.com/user-attachments/assets/02cb357b-97de-41ed-909f-a960ce79c8ab" />
+
