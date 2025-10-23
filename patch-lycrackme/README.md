@@ -7,13 +7,13 @@
 ## The premain
 
 ```bash
-java -javaagent:agent-1.0.0-jar-with-dependencies.jar -jar vulnerable-target.jar
+java -javaagent:patch-lycrackme-1.0.0-jar-with-dependencies.jar -jar vulnerable-target.jar
 ```
 
 ## The agentmain
 
 ```bash
-java -jar /target/agent-1.0.0-jar-with-dependencies.jar PID
+java -jar /target/patch-lycrackme-1.0.0-jar-with-dependencies.jar PID
 ```
 ## IMPORTANT.
 
@@ -48,6 +48,24 @@ Campo: val$_$$r_easte
 <2> Key found!
 
 ---
+
+```shell rubn ⲁƛ ▸   ~/Documents/projectos-java/java bytecode  jps                                       
+4113 Main
+163776 RemoteMavenServer36
+212017 jar
+4555 SonarLintServerCli
+34763 RemoteMavenServer36
+12718 RemoteMavenServer36
+212061 Jps
+171085 java
+rubn ⲁƛ ▸ ~/Documents/projectos-java/java bytecode  java -jar patch-lycrackme-1.0.0.jar 212017
+
+rubn
+https://rubn0x52.com
+Attached to target jvm correctly
+```
+
+The PID is `212017`, and we will attach to it dynamically. ⚙️
 
 <img width="1129" height="711" alt="image" src="https://github.com/user-attachments/assets/02cb357b-97de-41ed-909f-a960ce79c8ab" />
 
