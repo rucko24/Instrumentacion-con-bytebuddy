@@ -48,7 +48,7 @@ java -javaagent:agent-1.0.2-jar-with-dependencies.jar -jar vulnerable-target.jar
 ```bash
 java -jar /target/agent-1.0.2-jar-with-dependencies.jar PID
 ```
-## IMPORTANT
+## IMPORTANT.
 
 It is important to have the `tools.jar` coming from the JDK, not the JRE (which does not work to run the agent).
 
