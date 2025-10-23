@@ -157,7 +157,7 @@ Campo: val$_$$r_easte
 ## Applying dynamic attach
 
 ```shell 
-rubn ⲁƛ ▸   ~/Documents/projectos-java/java bytecode  jps                                       
+rubn ⲁƛ ▸ jps                                       
 4113 Main
 163776 RemoteMavenServer36
 212017 jar
@@ -166,7 +166,7 @@ rubn ⲁƛ ▸   ~/Documents/projectos-java/java bytecode  jps
 12718 RemoteMavenServer36
 212061 Jps
 171085 java
-rubn ⲁƛ ▸ ~/Documents/projectos-java/java bytecode  java -jar patch-lycrackme-1.0.0.jar 212017
+rubn ⲁƛ ▸ java -jar patch-lycrackme-1.0.0.jar 212017
 
 rubn
 https://rubn0x52.com
