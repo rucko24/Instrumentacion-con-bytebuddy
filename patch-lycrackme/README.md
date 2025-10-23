@@ -149,8 +149,8 @@ Clave: 6ff173f14d9384c6b897b4be810e5699ca997e18.0 <2>
 Clave encontrada
 Campo: val$_$$r_easte
 ```
-<1> Premain executed.
-<2> Key found!
+- <1> Premain executed.
+- <2> Key found!
 
 ---
 
