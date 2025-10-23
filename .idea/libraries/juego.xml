@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="juego">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../probar byteBuddy/juego.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
