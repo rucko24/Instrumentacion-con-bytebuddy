@@ -9,8 +9,8 @@ public class ReadBanner {
 
     private ReadBanner() {}
 
-    public static void showTheMonkey(String dir) {
-        try (InputStream input = ReadBanner.class.getClassLoader().getResourceAsStream(dir);
+    public static void showBanner() {
+        try (InputStream input = ReadBanner.class.getClassLoader().getResourceAsStream("banner.txt");
              final BufferedReader reader = new BufferedReader(new InputStreamReader(input))) {
             reader.lines().forEach(System.out::println);
             System.out.println();

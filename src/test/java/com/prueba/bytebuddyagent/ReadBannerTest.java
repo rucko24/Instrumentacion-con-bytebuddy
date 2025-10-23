@@ -11,6 +11,6 @@ class ReadBannerTest {
     @Test
     @DisplayName("Read banner from resources :D")
     void readBanner() throws IOException {
-        ReadBanner.showTheMonkey("banner.txt");
+        ReadBanner.showBanner();
     }
 }

@@ -31,9 +31,4 @@ public class StringEqualsAdvice {
         }
     }
 
-    @Advice.OnMethodExit
-    public static void exit() {
-        System.out.println("[*] Validación completada\n");
-        System.out.flush();
-    }
 }
