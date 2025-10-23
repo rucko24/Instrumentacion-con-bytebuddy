@@ -2,9 +2,9 @@
 
 There are currently only 3 agents, where we apply both static and dynamic instrumentation, with bytebyddy.
 
-[*patch game elhacker.net:*](https://github.com/rucko24/Instrumentacion-con-bytebuddy/tree/master/patch-elhackernet-user)
-[*patch Log4Shell*](https://github.com/rucko24/Instrumentacion-con-bytebuddy/tree/master/patch-log4shell)
-[*patch LyCrackMe:*](https://github.com/rucko24/Instrumentacion-con-bytebuddy/tree/master/patch-lycrackme)
+- [*patch game elhacker.net:*](https://github.com/rucko24/Instrumentacion-con-bytebuddy/tree/master/patch-elhackernet-user)
+- [*patch Log4Shell*](https://github.com/rucko24/Instrumentacion-con-bytebuddy/tree/master/patch-log4shell)
+- [*patch LyCrackMe:*](https://github.com/rucko24/Instrumentacion-con-bytebuddy/tree/master/patch-lycrackme)
 
 ## How to create agents
 
