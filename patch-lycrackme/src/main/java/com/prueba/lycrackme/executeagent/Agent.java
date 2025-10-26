@@ -27,10 +27,12 @@ public class Agent {
 
     public static void transform(String args, Instrumentation inst) {
         new AgentBuilder.Default()
-                .with(AgentBuilder.RedefinitionStrategy.RETRANSFORMATION)
-                .with(AgentBuilder.InitializationStrategy.NoOp.INSTANCE)
-                .with(AgentBuilder.TypeStrategy.Default.REDEFINE)
+                .ignore(ElementMatchers.none())
                 .disableClassFormatChanges()
+                .with(AgentBuilder.RedefinitionStrategy.RETRANSFORMATION)
+                .with(AgentBuilder.RedefinitionStrategy.Listener.StreamWriting.toSystemError())
+                .with(AgentBuilder.Listener.StreamWriting.toSystemError().withErrorsOnly())
+                .with(AgentBuilder.Listener.StreamWriting.toSystemError().withTransformationsOnly())
                 .ignore(ElementMatchers.nameStartsWith("net.bytebuddy."))
                 .ignore(ElementMatchers.nameStartsWith("java."))
                 .ignore(ElementMatchers.nameStartsWith("javax."))
